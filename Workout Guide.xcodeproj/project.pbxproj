@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C85BE0D1F38B5090054CA28 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85BE0C1F38B5090054CA28 /* CustomButton.swift */; };
+		1C85BE0F1F38DA070054CA28 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85BE0E1F38DA070054CA28 /* DetailViewController.swift */; };
+		1C85BE111F39CA760054CA28 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C85BE101F39CA760054CA28 /* Constants.swift */; };
 		1CA0AABB1F32168200742CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA0AABA1F32168200742CBC /* AppDelegate.swift */; };
 		1CA0AABD1F32168200742CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA0AABC1F32168200742CBC /* ViewController.swift */; };
 		1CA0AAC01F32168200742CBC /* Workout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA0AABE1F32168200742CBC /* Workout.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C85BE0C1F38B5090054CA28 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1C85BE0E1F38DA070054CA28 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1C85BE101F39CA760054CA28 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1CA0AAB71F32168200742CBC /* Workout Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA0AABA1F32168200742CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA0AABC1F32168200742CBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				1CA0AACE1F33707300742CBC /* WorkoutsViewController.swift */,
 				1CA0AAC31F32168200742CBC /* LaunchScreen.storyboard */,
 				1CA0AAC61F32168200742CBC /* Info.plist */,
+				1C85BE0C1F38B5090054CA28 /* CustomButton.swift */,
+				1C85BE0E1F38DA070054CA28 /* DetailViewController.swift */,
+				1C85BE101F39CA760054CA28 /* Constants.swift */,
 			);
 			path = "Workout Guide";
 			sourceTree = "<group>";
@@ -144,9 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C85BE0D1F38B5090054CA28 /* CustomButton.swift in Sources */,
 				1CA0AABD1F32168200742CBC /* ViewController.swift in Sources */,
+				1C85BE0F1F38DA070054CA28 /* DetailViewController.swift in Sources */,
 				1CA0AABB1F32168200742CBC /* AppDelegate.swift in Sources */,
 				1CA0AACF1F33707300742CBC /* WorkoutsViewController.swift in Sources */,
+				1C85BE111F39CA760054CA28 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +324,7 @@
 				1CA0AACB1F32168200742CBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
